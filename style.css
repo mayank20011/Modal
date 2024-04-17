@@ -1,0 +1,24 @@
+body
+{
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.modal-btn
+{
+  color:white;
+  padding:10px 20px;
+  border:none;
+  background:coral;
+  font-weight:800;
+  border-radius:5px;
+  cursor:pointer;
+  transition:all 0.3s ease-in-out;
+}
+.modal-btn:hover
+{
+  scale:1.1;
+  box-shadow:10px 5px 5px rgba(255, 127, 80, 0.31);
+}
