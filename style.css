@@ -66,13 +66,18 @@ body
 .closeBtn
 {
   cursor:pointer;
-  font-size:18px;
+  font-size:20px;
   user-select:none;
   transition:all 0.3s ease-in-out;
+  font-weight:600;
+  color:rgba(0, 0, 0, 0.358);
+  transition:scale 0 ease-in-out;
 }
 .closeBtn:hover
 {
   font-weight:800;
+  color:black;
+  scale:1.5;
 }
 .modal-header
 {
