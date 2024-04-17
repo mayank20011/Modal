@@ -96,4 +96,20 @@ body
 {
   padding:20px;
   background:coral;
+  text-align: center;
+}
+
+@media(max-width:380px)
+{
+   .modal-header h1
+   {
+    font-size:28px;
+   }
+}
+@media(max-width:330px)
+{
+   .modal-header h1
+   {
+    font-size:24px;
+   }
 }
